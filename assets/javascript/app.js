@@ -17,7 +17,7 @@ $(document).ready(function() {
     
     }); // Closes start-button click
     
-    $("body").on("click", ".answer", function(event){
+    $("body").on("click", ".answer", function(event) {
         //answeredQuestion = true;
         selectedAnswer = $(this).text();
         if(selectedAnswer === correctAnswers[questionCounter]) {
@@ -32,7 +32,7 @@ $(document).ready(function() {
         }
     }); // Close .answer click
     
-    $("body").on("click", ".reset-button", function(event){
+    $("body").on("click", ".reset-button", function(event) {
         resetGame();
     }); // Closes reset-button click
     
